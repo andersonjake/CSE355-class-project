@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3477B7F2219BFA6D003C8A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477B7F1219BFA6D003C8A73 /* AppDelegate.swift */; };
-		3477B7F4219BFA6D003C8A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477B7F3219BFA6D003C8A73 /* ViewController.swift */; };
+		3477B7F4219BFA6D003C8A73 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477B7F3219BFA6D003C8A73 /* HomeViewController.swift */; };
 		3477B7F7219BFA6D003C8A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3477B7F5219BFA6D003C8A73 /* Main.storyboard */; };
 		3477B7FA219BFA6D003C8A73 /* CSE335_class_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3477B7F8219BFA6D003C8A73 /* CSE335_class_project.xcdatamodeld */; };
 		3477B7FC219BFA6E003C8A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3477B7FB219BFA6E003C8A73 /* Assets.xcassets */; };
 		3477B7FF219BFA6E003C8A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3477B7FD219BFA6E003C8A73 /* LaunchScreen.storyboard */; };
 		3477B80A219BFA6E003C8A73 /* CSE335_class_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477B809219BFA6E003C8A73 /* CSE335_class_projectTests.swift */; };
 		3477B815219BFA6E003C8A73 /* CSE335_class_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477B814219BFA6E003C8A73 /* CSE335_class_projectUITests.swift */; };
+		3477B823219C0441003C8A73 /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477B822219C0441003C8A73 /* BookListViewController.swift */; };
+		3477B827219C0CC0003C8A73 /* BookListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477B826219C0CC0003C8A73 /* BookListModel.swift */; };
+		3477B844219C12D1003C8A73 /* BookList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477B840219C12D1003C8A73 /* BookList+CoreDataClass.swift */; };
+		3477B845219C12D1003C8A73 /* BookList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477B841219C12D1003C8A73 /* BookList+CoreDataProperties.swift */; };
+		3477B846219C12D1003C8A73 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477B842219C12D1003C8A73 /* Book+CoreDataClass.swift */; };
+		3477B847219C12D1003C8A73 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477B843219C12D1003C8A73 /* Book+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,7 @@
 /* Begin PBXFileReference section */
 		3477B7EE219BFA6D003C8A73 /* CSE335-class-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSE335-class-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3477B7F1219BFA6D003C8A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3477B7F3219BFA6D003C8A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3477B7F3219BFA6D003C8A73 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3477B7F6219BFA6D003C8A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3477B7F9219BFA6D003C8A73 /* CSE335_class_project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CSE335_class_project.xcdatamodel; sourceTree = "<group>"; };
 		3477B7FB219BFA6E003C8A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		3477B810219BFA6E003C8A73 /* CSE335-class-projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSE335-class-projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3477B814219BFA6E003C8A73 /* CSE335_class_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSE335_class_projectUITests.swift; sourceTree = "<group>"; };
 		3477B816219BFA6E003C8A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3477B822219C0441003C8A73 /* BookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		3477B826219C0CC0003C8A73 /* BookListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListModel.swift; sourceTree = "<group>"; };
+		3477B840219C12D1003C8A73 /* BookList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3477B841219C12D1003C8A73 /* BookList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3477B842219C12D1003C8A73 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3477B843219C12D1003C8A73 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +111,19 @@
 		3477B7F0219BFA6D003C8A73 /* CSE335-class-project */ = {
 			isa = PBXGroup;
 			children = (
+				3477B840219C12D1003C8A73 /* BookList+CoreDataClass.swift */,
+				3477B841219C12D1003C8A73 /* BookList+CoreDataProperties.swift */,
+				3477B842219C12D1003C8A73 /* Book+CoreDataClass.swift */,
+				3477B843219C12D1003C8A73 /* Book+CoreDataProperties.swift */,
 				3477B7F1219BFA6D003C8A73 /* AppDelegate.swift */,
-				3477B7F3219BFA6D003C8A73 /* ViewController.swift */,
+				3477B7F3219BFA6D003C8A73 /* HomeViewController.swift */,
 				3477B7F5219BFA6D003C8A73 /* Main.storyboard */,
 				3477B7FB219BFA6E003C8A73 /* Assets.xcassets */,
 				3477B7FD219BFA6E003C8A73 /* LaunchScreen.storyboard */,
 				3477B800219BFA6E003C8A73 /* Info.plist */,
 				3477B7F8219BFA6D003C8A73 /* CSE335_class_project.xcdatamodeld */,
+				3477B822219C0441003C8A73 /* BookListViewController.swift */,
+				3477B826219C0CC0003C8A73 /* BookListModel.swift */,
 			);
 			path = "CSE335-class-project";
 			sourceTree = "<group>";
@@ -259,9 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3477B7F4219BFA6D003C8A73 /* ViewController.swift in Sources */,
+				3477B7F4219BFA6D003C8A73 /* HomeViewController.swift in Sources */,
+				3477B823219C0441003C8A73 /* BookListViewController.swift in Sources */,
+				3477B847219C12D1003C8A73 /* Book+CoreDataProperties.swift in Sources */,
+				3477B846219C12D1003C8A73 /* Book+CoreDataClass.swift in Sources */,
+				3477B844219C12D1003C8A73 /* BookList+CoreDataClass.swift in Sources */,
+				3477B827219C0CC0003C8A73 /* BookListModel.swift in Sources */,
 				3477B7FA219BFA6D003C8A73 /* CSE335_class_project.xcdatamodeld in Sources */,
 				3477B7F2219BFA6D003C8A73 /* AppDelegate.swift in Sources */,
+				3477B845219C12D1003C8A73 /* BookList+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

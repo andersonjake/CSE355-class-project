@@ -14,6 +14,7 @@
 		34100165219E88A9008D7E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34100164219E88A9008D7E22 /* Assets.xcassets */; };
 		34100168219E88A9008D7E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34100166219E88A9008D7E22 /* LaunchScreen.storyboard */; };
 		34100170219E88CD008D7E22 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410016F219E88CD008D7E22 /* MapViewController.swift */; };
+		34100173219E9FEB008D7E22 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34100172219E9FEB008D7E22 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		34100167219E88A9008D7E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34100169219E88A9008D7E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3410016F219E88CD008D7E22 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		34100172219E9FEB008D7E22 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34100173219E9FEB008D7E22 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				34100159219E88A8008D7E22 /* class-project */,
 				34100158219E88A8008D7E22 /* Products */,
+				34100171219E9FEB008D7E22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +72,14 @@
 				3410015E219E88A8008D7E22 /* Main.storyboard */,
 			);
 			path = "class-project";
+			sourceTree = "<group>";
+		};
+		34100171219E9FEB008D7E22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34100172219E9FEB008D7E22 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

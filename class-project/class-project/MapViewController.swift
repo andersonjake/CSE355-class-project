@@ -17,7 +17,7 @@ class MapViewController: UIViewController, UISearchBarDelegate, MKMapViewDelegat
     var userPlacemark=MKPlacemark();
     var currentTransportType = MKDirectionsTransportType.automobile
     var currentRoute: MKRoute?
-
+    
     var manager:CLLocationManager!
     
     
@@ -95,7 +95,7 @@ class MapViewController: UIViewController, UISearchBarDelegate, MKMapViewDelegat
     
     
     func mapViewDidFinishRenderingMap(_ mapView: MKMapView, fullyRendered: Bool){
-            self.search(querey: "book store")
+        self.search(querey: "book store")
     }
     
     func showOnMap(matchingItems: [MKMapItem]){
@@ -132,7 +132,7 @@ class MapViewController: UIViewController, UISearchBarDelegate, MKMapViewDelegat
             if error != nil {
                 print("Geocode failed: \(error!.localizedDescription)")
             } else if placemarks!.count > 0 {
-//                placemark = placemarks![0]
+                //                placemark = placemarks![0]
                 let coordinate = placemarks![0].location!.coordinate
                 placemark = MKPlacemark(coordinate: coordinate)
             }

@@ -15,6 +15,8 @@
 		34100168219E88A9008D7E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34100166219E88A9008D7E22 /* LaunchScreen.storyboard */; };
 		34100170219E88CD008D7E22 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410016F219E88CD008D7E22 /* MapViewController.swift */; };
 		34100173219E9FEB008D7E22 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34100172219E9FEB008D7E22 /* CoreLocation.framework */; };
+		34100175219F6854008D7E22 /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34100174219F6854008D7E22 /* BookListViewController.swift */; };
+		34100177219F69D7008D7E22 /* SearchBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34100176219F69D7008D7E22 /* SearchBookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		34100169219E88A9008D7E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3410016F219E88CD008D7E22 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		34100172219E9FEB008D7E22 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		34100174219F6854008D7E22 /* BookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		34100176219F69D7008D7E22 /* SearchBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				34100161219E88A8008D7E22 /* class_project.xcdatamodeld */,
 				34100166219E88A9008D7E22 /* LaunchScreen.storyboard */,
 				3410015E219E88A8008D7E22 /* Main.storyboard */,
+				34100174219F6854008D7E22 /* BookListViewController.swift */,
+				34100176219F69D7008D7E22 /* SearchBookViewController.swift */,
 			);
 			path = "class-project";
 			sourceTree = "<group>";
@@ -157,6 +163,8 @@
 				3410015B219E88A8008D7E22 /* AppDelegate.swift in Sources */,
 				34100163219E88A8008D7E22 /* class_project.xcdatamodeld in Sources */,
 				34100170219E88CD008D7E22 /* MapViewController.swift in Sources */,
+				34100175219F6854008D7E22 /* BookListViewController.swift in Sources */,
+				34100177219F69D7008D7E22 /* SearchBookViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
